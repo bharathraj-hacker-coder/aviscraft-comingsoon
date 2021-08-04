@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+
+  <title>AVISCRAFT</title>
+
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="" name="keywords">
+  <meta content="" name="description">
+  <!-- Main Stylesheet File -->
+  <link  rel="stylesheet" href="css/styles.css">
+  <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+</head>
+<script>
+  function openNav() {
+    document.getElementById("mySidepanel").style.width = "150px";
+  }
+
+  function closeNav() {
+    document.getElementById("mySidepanel").style.width = "0";
+  }
+
+</script>
+<body>
+  <!--==========================
+    Header
+  ============================-->
+  <header id="header">
+    <div class="container">
+      <div class="logo">
+        <a><img src="images/aviscraft-logo.png" alt="" title=""></a>
+      </div>
+      <div id="nav-menu-container">
+      <ul class="nav-menu nshow">
+        <li><a href="index.html" title="Home" data-ripple=""> Home</a></li>
+        <li><a href="contactus.html" title="Contact Us" data-ripple="" class="menu-active"> Contact Us </a></li>
+      </ul>
+        <li class="men">
+          <div id="mySidepanel" class="sidepanel">
+            <button href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</button>
+            <a href="index.html"title="Home" data-ripple=""> Home</a>
+            <a href="contactus.html" title="Contact Us" data-ripple="" class="menu-active"> Contact Us</a>
+          </div>
+          <button class="openbtn" onclick="openNav()"><i class="fas fa-bars"></i></button> 
+        </li>
+    </div>
+  </header><!-- #header -->
+  
+  <div class="pagetitlebg">
+      <img src="images/123.jpg">
+    <h1 class="centered"> Contact Us</h1>
+  </div>
+  <div class="contactuscontainer">
+    <form class="contactform" action="">
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" placeholder="Your name..">
+
+      <label for="email">Email</label>
+      <input type="text" id="email" name="email" placeholder="Your Email..">
+
+      <label for="subject">Subject</label>
+      <input type="text" id="subject" name="subject" placeholder="Your Subject..">
+
+      <label for="message">Message</label>
+      <textarea id="message" name="message" placeholder="Write something.." style="height:200px"></textarea>
+
+      <input class="contactsubmit" type="submit" value="Submit">
+    </form>
+    <div class="contactaddress">
+      <div class="addcontent">
+        <div><i class="fas fa-map-marker-alt"></i></div>
+        <div>
+          <span>AVISCRAFT ADVANCED MATERIALS (P) LTD</span><br>
+          <span>SF No. 122/A2, Mopperipalayam Village,</span><br>
+          <span>Vagarayampalayam (PO),</span><br>
+          <span>Karumathamapatti (via)</span><br>
+          <span>Coimbatore - 641659</span><br>
+        </div>
+      </div>
+      <div class="addcontent">
+        <div><i class="fas fa-envelope"></i></div>
+        <div>
+          <span>info@aviscraftmaterials.com</span>
+        </div>
+      </div>
+      <div class="addcontent">
+        <div><i class="fas fa-phone-alt"></i></div>
+        <div>
+          <span>6369225608</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="mapview">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3914.613788909916!2d77.12809411455838!3d11.142114492073953!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba8ff7eb9530e17%3A0x4743a102897d773a!2sAviscraft%20Advanced%20Materials%20Private%20Limited!5e0!3m2!1sen!2sin!4v1626541501006!5m2!1sen!2sin" width="100%" height="450" style="border:0;"></iframe>
+  </div>
+  <div class="footer">
+    <div class="leftalign">© 2021 Aviscraft Advanced Materials</div>
+    <div class="rightalign">Developed by BHARATHRAJ M (bharathrajmuthu@gmail.com)</div>
+  </div>
+</body>
+</html>
