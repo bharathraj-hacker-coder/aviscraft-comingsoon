@@ -454,41 +454,13 @@ body{
   flex-direction: row;
   padding-top: 30px;
   font-weight: 400;
-  padding-bottom: 30px;
 }
 .contactuscontainer .contactform{
   font-family: 'Bitter', serif;
   width: 45%;
   height: 600px;
-  padding: 20px;
   display: flex;
   flex-wrap: wrap;
-}
-.contactuscontainer .contactform input[type=text], select, textarea {
-  width: 100%;
-  padding: 12px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
-  font-size: 14px;
-  margin-top: 6px;
-  margin-bottom: 16px;
-  resize: vertical;
-}
-
-.contactuscontainer .contactform .contactsubmit {
-  background-color: #a31e24;
-  color: #dcdcdc;
-  font-size: 18px;
-  padding: 12px 20px;
-  border: none;
-  border-radius: 8px;
-  cursor: pointer;
-}
-
-.contactuscontainer .contactform .contactsubmit:hover {
-  background-color: #dcdcdc;
-  color: #a31e24;
 }
 .contactuscontainer .contactaddress{
   display: flex;
@@ -508,12 +480,9 @@ body{
   padding-right: 10px;
   color: #a31e24;
 }
-.mapview{
-  padding: 20px;
-}
 @media screen and (max-width: 930px){
   .contactuscontainer{
-    flex-direction: column;
+    flex-direction: column-reverse;
     align-items: center;
   }
   .contactuscontainer .contactform{
